@@ -22,7 +22,7 @@ namespace EnvioServiceBusQueue
                 logger.Error(
                     "Informe ao menos 3 parametros: " +
                     "no primeiro a string de conexao com o Azure Service Bus, " +
-                    "no segundo a Fila/Queue a que recebera as mensagens..." +
+                    "no segundo a Fila/Queue a que recebera as mensagens, " +
                     "ja no terceito em diante as mensagens a serem " +
                     "enviadas a Queue do Azure Service Bus...");
                 return;
